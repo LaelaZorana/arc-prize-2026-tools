@@ -1,7 +1,7 @@
 """
 ARC-AGI-2 Domain Specific Language
 Primitive operations for program synthesis solver.
-All functions return new grids — never mutate in place.
+All functions return new grids and never mutate in place.
 Grids are list[list[int]], integers 0-9 (0 = background by default).
 """
 

@@ -1,6 +1,6 @@
 # arc-prize-2026-tools
 
-Open-source utilities I built while competing in the **[ARC Prize 2026 — ARC-AGI-2](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-2)** Kaggle competition (abstract visual reasoning).
+Open-source utilities I built while competing in the **[ARC Prize 2026: ARC-AGI-2](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-2)** Kaggle competition (abstract visual reasoning).
 
 These are general-purpose engineering tools, not a solution writeup. They're the kind of plumbing you end up needing when working with Kaggle's API and building ARC program-synthesis experiments.
 

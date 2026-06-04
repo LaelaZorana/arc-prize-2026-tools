@@ -1,4 +1,4 @@
-"""Minimal Kaggle client using Bearer auth — for the new KGAT_ tokens.
+"""Minimal Kaggle client using Bearer auth, for the new KGAT_ tokens.
 
 Kaggle's new KGAT_ API tokens authenticate via `Authorization: Bearer <token>`,
 NOT the legacy Basic auth (username:key) that kaggle.json + the kaggle CLI use.
@@ -30,7 +30,7 @@ def _req(path: str, raw: bool = False):
 
 
 def whoami():
-    # Authenticated probe — competitions/list 200 means the token is good.
+    # Authenticated probe: competitions/list 200 means the token is good.
     try:
         _req("/competitions/list?page=1", raw=True)
         print("✅ Bearer auth OK")
